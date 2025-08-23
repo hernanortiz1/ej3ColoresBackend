@@ -1,8 +1,8 @@
 import coloresRoutes from "./color.routes.js";
 import { Router } from "express";
 
-const router = Router()
+const router = Router();
 
-router.use("/colores", coloresRoutes)
+router.use("/colores", coloresRoutes);
 
-export default router
+export default router;
